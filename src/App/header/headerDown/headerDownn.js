@@ -4,6 +4,9 @@ import shieldPic from "./Shield Cross 1.png";
 import monitorPic from "./Monitoring1.png";
 import timePic from "./Time.png";
 import attenPic from "./Attention.png";
+import monitorPic2 from "./Monitoring222.png";
+
+import Card from "./card/card";
 
 function HeaderDown() {
     return (
@@ -28,53 +31,30 @@ function HeaderDown() {
 
 
                 <div className="card-block__container">
-                    
-                    <div className="header-down__card">
-                        <div className="card-top card-top_white">
-                            <img src={monitorPic} alt="monitorPic" />
-                            <span>39%</span>
-                        </div>
-                        <div className="card-bottom card-bottom_white">
-                            <h3>
-                                Простые ошибки
-                            </h3>
-                            <p>
-                                39 процентов непреднамеренных покупок контрафактных продуктов совершены на признанных соответствующими законодательству сторонних торговых площадках в Интернете.*
-                            </p>
-                        </div>
-                    </div>
 
-                    <div className="header-down__card black">
-                        <div className="card-top">
-                            <img src={timePic} alt="timePic" />
-                            <span>20%</span>
-                        </div>
-                        <div className="card-bottom">
-                            <h3>
-                                Увеличение количества вредоносных программ
-                            </h3>
-                            <p>
-                                На 20% больше вредоносного ПО обнаруживается на компьютерах пользователей, если они провели на сайтах с нелицензионными программами вдвое больше времени**
-                            </p>
-                        </div>
-                    </div>
+                    <Card
+                        img={monitorPic}
+                        span="39%"
+                        h3="Простые ошибки"
+                        p="39 процентов непреднамеренных покупок контрафактных продуктов совершены на признанных соответствующими законодательству сторонних торговых площадках в Интернете.*"
+                    />
 
-                    <div className="header-down__card black">
-                        <div className="card-top">
-                            <img src={attenPic} alt="attenPic" />
-                            <span>1/2 <span>триллиона</span> </span>
-                        </div>
-                        <div className="card-bottom">
-                            <h3>
-                                Повсеместное распространение
-                            </h3>
-                            <p>
-                                ½ триллиона долларов США по стоимости
-                                или 3,3 % импорта во всем мире приходится
-                                на контрафактные или пиратские продукты.*
-                            </p>
-                        </div>
-                    </div>
+                    <Card
+                        img={timePic}
+                        span="20%"
+                        h3="Увеличение количества вредоносных программ"
+                        p="На 20% больше вредоносного ПО обнаруживается на компьютерах пользователей, если они провели на сайтах с нелицензионными программами вдвое больше времени"
+                    />
+
+                    <Card
+                        img={attenPic}
+                        span="1/2 трлн"
+                        h3="Повсеместное распространение"
+                        p="½ триллиона долларов США по стоимости
+                        или 3,3 % импорта во всем мире приходится
+                        на контрафактные или пиратские продукты.*"
+                    />
+
                 </div>
 
 
