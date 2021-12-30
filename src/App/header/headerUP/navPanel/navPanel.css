@@ -1,0 +1,41 @@
+.nav-panel {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-panel__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-panel__logo .logo {
+    margin-right: 28px;
+    align-items: center;
+}
+
+.nav-panel__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-panel__button .button{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 45px;
+    color: white;
+}
+
+.nav__buy-button {
+    padding: 7px 26px;
+    background-color: #81BC06;
+    margin-left: 109px;
+    text-decoration: none;
+    color: white;
+}

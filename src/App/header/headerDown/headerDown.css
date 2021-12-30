@@ -1,0 +1,132 @@
+.header-down {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+.header-down__text-block {
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 118px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-down__text-block img {
+    filter: drop-shadow(0px 4px 189px rgba(255, 255, 255, 0.16));
+    width: 300px;
+    height: 300px;
+}
+
+.header-down__text {
+    max-width: 690px;
+}
+
+.text-h1 {
+    font-weight: 500;
+    font-size: 31px;
+}
+
+.text-p {
+    font-size: 14px;
+}
+
+.header-down__card-block {
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-block__h2 {
+    max-width: 490px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.header-down__card {
+    width: 380px;
+    height: 320px;
+    background-color: white;
+}
+
+.card-block__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-top {
+    margin-top: 18px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Russo One';
+}
+
+.card-top_white {
+    margin-top: 35px;
+    margin-left: 31px;
+}
+
+.card-top span {
+    font-size: 54.2941px;
+    /* line-height: 65px; */
+    margin-left: 42px;
+}
+
+.card-top span span {
+    font-size: 27px;
+    margin: 0;
+    line-height: 10px;
+}
+
+.card-bottom {
+    margin-left: 31px;
+    max-width: 331px;
+}
+
+.card-bottom h3 {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 12px;
+    margin-top: 14px;
+    color: #E2E2E2;
+}
+
+.card-bottom p {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.card-top_white span {
+    color: #4A4A4A;
+    margin-left: 63px;
+}
+
+.card-bottom_white h3 {
+    color: #272727;
+    margin-top: 34px;
+}
+
+.card-bottom_white p {
+    color: #6D6D6D
+}
+
+.black {
+    background: linear-gradient(180deg, #272727 0%, #1E1E1E 100%), #FAFAFA;
+    border-radius: 2px;
+}
+
+.header-down__bottom {
+    text-align: center;
+    margin-top: 43px;
+}
+
+.header-down__bottom p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: gray;
+}

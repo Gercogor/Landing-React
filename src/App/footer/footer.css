@@ -1,0 +1,49 @@
+.footer {
+    font-family: 'IBM Plex Sans';
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.footer-h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    /* margin-top: 81px;
+    margin-bottom: 53px;
+    margin-left: 100px; */
+    margin: 81px 0 53px 100px;
+    max-width: 600px;
+}
+
+.footer-slides {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 125px;
+}
+
+.footer__slide {
+    width: 300px;
+}
+
+.footer__slide-bottom {
+    max-width: 330px;
+}
+
+.footer__slide-bottom h3 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.footer__slide-bottom p {
+    font-size: 14px;
+    margin: 16px 0;
+    color: #646464;
+}
+
+.footer__slide-bottom a {
+    text-decoration: none;
+    color: #4C35C5;
+    font-weight: 500;
+}

@@ -1,0 +1,54 @@
+.info-block {
+    max-width: 1180px;
+    max-height: 520px;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.info-block__container {
+    display: flex;
+    padding: 52px 100px;
+    justify-content: space-between;
+    background: radial-gradient(156.24% 258.95% at 61.61% 47.6%,
+            rgba(56, 56, 56, 0.68) 0%,
+            rgba(29, 29, 29, 0.68) 100%),
+        #000000;
+}
+
+.info-block__text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+.info-block__text-title {
+    font-size: 58px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 13px;
+    margin-top: 32px;
+}
+
+.info-block__text-p {
+    max-width: 259px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 110px;
+
+}
+
+.buy-button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 14px 28px;
+}
+
+.buy-button_bg {
+    background-color: #765EF3;
+}
+
+.info-block__pic {
+    margin-left: 160px;
+}

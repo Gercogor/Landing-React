@@ -1,0 +1,94 @@
+.slider {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.slider-top {
+    max-width: 970px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider__text {
+    max-width: 493px;
+}
+
+.slider__text-p {
+    font-family: 'IBM Plex Sans';
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 68px;
+}
+
+.slider-control {
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev img {
+    transform: rotate(180deg);
+}
+
+.prev {
+    background: rgb(70, 70, 70);
+    height: 19px;
+    padding: 20px 23.5px;
+    border: 3.5px solid rgb(60, 60, 60);
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.next {
+    margin-left: 40px;
+    background: rgb(70, 70, 70);
+    height: 19px;
+    padding: 20px 23.5px;
+    border: 3.5px solid rgb(60, 60, 60);
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.slider__container {
+    padding-bottom: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.slide {
+    width: 380px;
+    height: 320px;
+    font-family: 'IBM Plex Sans';
+    background: linear-gradient(180deg, #272727 0%, #1E1E1E 100%), #FAFAFA;
+    border-radius: 2px;
+}
+
+.slide-top {
+    margin: 18px 0 0 30px;
+}
+
+.slide-bottom {
+    max-width: 330px;
+    margin: 25px 0 35px 30px;
+}
+
+.slide-bottom h3 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.slide-bottom p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 11px;
+
+}
+
+.slider__container :hover {
+    background: #FAFAFA;
+    background-color: #FAFAFA;
+    color: #000000;
+}
