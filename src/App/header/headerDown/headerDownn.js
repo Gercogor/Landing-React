@@ -4,13 +4,14 @@ import shieldPic from "./Shield Cross 1.png";
 import monitorPic from "./Monitoring1.png";
 import timePic from "./Time.png";
 import attenPic from "./Attention.png";
-import monitorPic2 from "./Monitoring222.png";
+// import monitorPic2 from "./Monitoring222.png";
 
 import Card from "./card/card";
 
 function HeaderDown() {
     return (
         <div className="header-down">
+
             <div className="header-down__text-block">
                 <div className="header-down__text">
                     <p className="header-down__text-h1 text-h1">
@@ -21,7 +22,9 @@ function HeaderDown() {
                         обеспечение для распространения вредоносных программ, а пользователи подвергают себя различным рискам безопасности.
                     </p>
                 </div>
+
                 <img src={shieldPic} alt="shieldPic" />
+
             </div>
 
             <div className="header-down__card-block">

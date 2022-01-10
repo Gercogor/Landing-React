@@ -48,3 +48,16 @@
     background: linear-gradient(180deg, #272727 0%, #1E1E1E 100%), #FAFAFA;
     border-radius: 2px;
 }
+
+.header-down__card:hover {
+    background: #FAFAFA;
+    color: #4A4A4A;
+}
+
+.header-down__card:hover h3 {
+    color: #272727;
+}
+
+.header-down__card:hover p {
+    color: #6D6D6D;
+}
